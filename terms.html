@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from meegaupload.net/terms.html by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 25 Jan 2012 17:35:08 GMT -->
+<head>
+<meta charset="utf-8">
+<title>MEGAUPLOAD  - We are working for a new and beautiful dream: stay tuned! - Megaupload.com</title>
+<meta name="robots" content="noodp,noydir"/>
+<meta name="robots" content="noarchive">
+<meta property='og:title' content='MEGAUPLOAD is back - Megaupload.com'/>
+<meta property='og:description' content='This is the new MEGAUPLOAD site! We are working to be back full again!'/>
+<meta property='og:url' content='http://www.meegaupload.net/'/>
+<meta property='og:site_name' content='This is the new MEGAUPLOAD site! We are working to be back full again'/>
+<meta property='og:image' content='../www.meegaupload.net/muimg/megaupload_logo.jpg'/>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/start.css" />
+<link rel="stylesheet" type="text/css" href="css/en/style.css" />
+<link rel="stylesheet" type="text/css" href="css/en/start.css" />
+<link rel="icon" href="faviconmu.html" type="image/x-icon">
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+</head>
+
+<body onresize="posNotifyReversePayment();" onscroll="posNotifyReversePayment();" onload="init();">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="top_td_bg">&nbsp;</td>
+    <td class="top_td_bg"></td>
+    <td class="top_td_bg">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="left_top"><div class="l_top_bg">
+        <div class="left_top_bg"></div>
+      </div>
+      <div class="mid_left_bg1">
+        <div class="mid_left_bg2"></div>
+      </div></td>
+    <td class="left_top main_width"><div class="main_top_l">
+        <div class="main_top_r"> 
+		<a href="http://www.meegaupload.net/" class="logo_lnk"></a>
+
+<div class="lang_pad"> <a id="langSelectionSP" class="lng_en_a" onclick="langSelection.turn()"></a></div>
+
+<div class="top_buttons_pad" ><a href="#" class="top_reg_butt"></a></div>
+
+<div class="top_buttons_pad" ><a href="#" class="top_log_butt"></a></div>
+
+<script type="text/javascript">
+
+ function signout() { document.getElementById('logoutfrm').submit(); } 
+
+</script>
+
+<FORM method="POST" id="logoutfrm"><input type="hidden" name="logout" value="1"></FORM>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="top_line"></div>
+      <div class="top_menu_block">
+        <div class="top_butt1"><a href="page.html" class="butt_1"></a></div>
+
+<div class="top_butt2"><a href="page.html" class="butt_2"></a></div>
+
+<div class="top_butt3"><a href="page.html" class="butt_3"></a></div>
+
+<div class="top_butt4"><a href="page.html" class="butt_4"></a></div>
+
+<div class="top_butt5"><a href="page.html" class="butt_5"></a></div>
+
+<div class="top_butt6"><a href="page.html" class="butt_6"></a></div>
+        <div class="clear" ></div>
+      </div>
+      <div class="main_bg start">
+        <div class="b_page_top"></div>
+        <div class="main_shadow1"></div>
+        <div class="main_shadow2 start">
+          <div class="start_main_bg1">
+		  
+			<div class="start_files_pad" id="filesblock_pad" style="display:none;">
+			<div id="filesblock"></div>
+			<div class="clear"></div>
+			</div>
+
+			<div style="display:none;" id="uploadcomplete">
+              <div class="start_vertical_div"></div>
+              <div class="start_clock_block">
+                <div class="start_success_pad">
+                  <div class="start_uploads_success"></div>
+                </div>
+              </div>
+            </div>
+		
+			<div style="display:none;" id="progress_div">
+              <div class="start_vertical_div"></div>
+              <div class="start_clock_block">
+                <div class="start_time_left"> </div>
+                <div class="start_timer" id="progress_timers"> 
+				  00:00:00<br />
+                  00:00:00 </div>
+                <div class="start_clock_icon"> </div>
+                <div class="start_transfer_bl">
+                  <div class="start_transfer_rate"></div>
+                  <div> <span class="start_transfer_num" id="progress_num"></span><span class="start_transfer_txt" id="progress_txt"></span> </div>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+
+		
+
+	         <div id="sel_but1_bg">
+              <div id="checkboxtos_div" class="checkboxOff" style="display:none" >
+                <input type="checkbox" id="checkboxtos" onClick="checktos(0);" class="checkboxOff" >
+              </div>
+              <div id="sel_but1_txt" class="start_terms_txt" style="display:none;cursor:default;" onclick="checktos(1);"> By sending files to Megaupload, you agree to our </div>
+              <div id="sel_but1_step1_txt" class="start_step1_txt" > </div>
+              <a href="#" target="_blank" id="sel_but1_lnk" class="start_terms_lnk" style="display:none">Terms of Service</a> 
+              <a href="javascript:void(0);" id="sel_but1"  class="start_select_butt">
+              
+              <div style="width:342px; height:62px;"><div id="uploaderswf_div"></div></div>
+		 	  
+              
+              </a>
+              <div class="clear"></div>
+              <a href="javascript:startupload();" id="sel_but2"  class="start_upload_butt" style="display:none" ></a> 
+            </div>
+            <div class="start_but_shadow" id="startbutshadow"></div>         
+
+          </div>
+        </div>
+        <div class="main_shadow3 download" id="shadow3div"></div>
+        <div class="main_start_separator"></div>
+        <div class="main_shadow1"></div>
+        <div class="main_shadow2 start">
+          <div class="start_flash_block">
+            <div class="start_flash" style="width:970px;">
+			 
+			   <div style="height:230px;overflow:auto;text-align:left;padding:5px 15px 5px 15px;margin:20px 0px 0px 10px;border:1px solid #ccc;">
+			   		<h3>TERMS OF SERVICE</h3>
+THESE TERMS OF SERVICE GOVERN YOUR ACCESS OF THE WEBSITE AT THE ADDRESSES HTTP://WWW.MEEGAUPLOAD.NET ,ANY OF THE INFORMATION, TEXT, GRAPHICS, VIDEOS OR OTHER MATERIALS CREATED OR PROVIDED BY US AND APPEARING ON THE SITE, (THE "MEEGAUPLOAD CONTENT"), AND ANY SERVICES PROVIDED THROUGH THE SITE OR BY US (THE "SERVICES"), THE ABILITY TO CREATE, POST AND WRITE COMMENTS ON THIRD PARTY SITES VIA USE OF OUR APPLICATION, VIA OUR EMBEDDABLE STAND-ALONE WIDGETS OR API’S OR OTHER TECHNOLOGIES WE MAY PROVIDE (COLLECTIVELY, THE "APPLICATIONS"), EXCEPT WHERE EXPRESSLY NOTED. YOUR ACCESS TO AND USE OF THE SITE, MEEGAUPLOAD CONTENT, SERVICES, APPLICATIONS AND/OR USER-GENERATED CONTENT (AS DEFINED BELOW) ARE EXPRESSLY CONDITIONED ON YOUR COMPLIANCE WITH THESE TERMS OF SERVICE. BY ACCESSING OR USING SITE, MEEGAUPLOAD CONTENT, SERVICES, APPLICATIONS OR USER-GENERATED CONTENT (UNLESS OTHERWISE NOTED, COLLECTIVELY REFERRED TO AS "MEEGAUPLOAD") YOU AGREE TO BE BOUND BY THESE TERMS OF SERVICE.
+THESE TERMS OF SERVICE APPLY TO THE BETA VERSION OF MEEGAUPLOAD, AS WELL AS ANY ENHANCEMENTS AND FURTHER VERSIONS OF THE SERVICE THAT WE MAY CHOOSE TO OFFER FROM TIME TO TIME UNLESS SUCH ENHANCEMENTS ARE GOVERNED BY SEPARATE AGREEMENTS. 
+1. YOUR ABILITY TO ACCEPT THESE TERMS OF SERVICE
+YOU ACKNOWLEDGE AND AGREE THAT YOU ARE OF LEGAL AGE AND ARE FULLY ABLE TO ENTER INTO THE TERMS, CONDITIONS, OBLIGATIONS, ACKNOWLEDGEMENTS, REPRESENTATIONS, AND WARRANTIES SET FORTH IN THESE TERMS OF SERVICE. YOU AGREE THAT YOU WILL ADHERE TO AND COMPLY WITH TERMS SET FORTH HEREIN. YOU MAY NOT USE MEEGAUPLOAD IF YOU ARE NOT OF LEGAL AGE TO ENTER IN THE PRESENT AGREEMENT. 
+2. PRIVACY
+SEE OUR PRIVACY POLICY FOR INFORMATION AND NOTICES CONCERNING OUR COLLECTION AND USE OF YOUR PERSONAL INFORMATION. 
+4. USER-GENERATED CONTENT
+ALL INFORMATION, DATA, TEXT, SOFTWARE, MUSIC, SOUND, PHOTOGRAPHS, GRAPHICS, VIDEO, MESSAGES, TAGS, OR OTHER MATERIALS THAT YOU AND/OR OTHER USERS POST, UPLOAD, LINK TO AND/OR OTHERWISE SUBMIT TO THE SITE OR THROUGH THE SERVICES OR THE APPLICATIONS (COLLECTIVELY REFERRED TO AS "USER-GENERATED CONTENT"), WHETHER PUBLICLY POSTED OR PRIVATELY TRANSMITTED, ARE THE SOLE RESPONSIBILITY OF THE PERSON FROM WHOM SUCH USER-GENERATED CONTENT ORIGINATED. YOU ARE ENTIRELY RESPONSIBLE FOR ALL OF THE USER-GENERATED CONTENT THAT YOU UPLOAD, POST, EMAIL, TRANSMIT OR OTHERWISE MAKE AVAILABLE VIA THE SITE, THE SERVICES OR THE APPLICATIONS. WE DO NOT MONITOR OR CONTROL USER-GENERATED CONTENT POSTED AND WE TAKE NO RESPONSIBILITY FOR SUCH CONTENT.
+WE DO NOT ENDORSE, SUPPORT, REPRESENT OR GUARANTEE THE TRUTHFULNESS, ACCURACY, OR RELIABILITY OF ANY USER-GENERATED CONTENT OR ENDORSE ANY OF THE OPINIONS EXPRESSED THEREIN. YOU AGREE TO WAIVE, AND HEREBY DO WAIVE, ANY LEGAL OR EQUITABLE RIGHTS OR REMEDIES YOU HAVE OR MAY HAVE AGAINST US WITH RESPECT THERETO. YOU ACKNOWLEDGE THAT ANY RELIANCE ON USER-GENERATED CONTENT WILL BE AT YOUR OWN RISK.
+YOU UNDERSTAND THAT BY USING OR ACCESSING MEEGAUPLOAD YOU MAY BE EXPOSED TO CONTENT THAT MIGHT BE OFFENSIVE, HARMFUL, INACCURATE OR OTHERWISE INAPPROPRIATE MATERIAL, OR IN SOME CASES, POSTINGS THAT HAVE BEEN MISLABELED OR ARE OTHERWISE DECEPTIVE. UNDER NO CIRCUMSTANCES WILL WE BE LIABLE IN ANY WAY FOR ANY CONTENT OR COMMUNICATIONS, INCLUDING, BUT NOT LIMITED TO, ANY ERRORS OR OMISSIONS IN ANY FORM OF USER-GENERATED CONTENT, OR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY MEEGAUPLOAD CONTENT OR USER-GENERATED CONTENT POSTED, EMAILED, TRANSMITTED OR OTHERWISE MADE AVAILABLE ON THE SITE, VIA THE SERVICE OR THE APPLICATIONS.
+WE RESERVE THE RIGHT AT ALL TIMES (BUT WILL NOT HAVE AN OBLIGATION) TO REMOVE OR REFUSE TO DISTRIBUTE ANY USER-GENERATED CONTENT, SUCH AS USER-GENERATED CONTENT WHICH VIOLATES THESE TERMS OF SERVICE. WE ALSO RESERVE THE RIGHT TO ACCESS, READ, PRESERVE, AND DISCLOSE ANY INFORMATION AS WE REASONABLY BELIEVE IS NECESSARY TO (A) SATISFY ANY APPLICABLE LAW, REGULATION, LEGAL PROCESS OR GOVERNMENTAL REQUEST, (B) ENFORCE THESE TERMS OF SERVICE, INCLUDING INVESTIGATION OF POTENTIAL VIOLATIONS HEREOF, (C) DETECT, PREVENT, OR OTHERWISE ADDRESS FRAUD, SECURITY OR TECHNICAL ISSUES, (D) RESPOND TO MEMBER SUPPORT REQUESTS, OR (E) PROTECT OUR RIGHTS, PROPERTY OR SAFETY, AND THAT OF OUR USERS AND THE PUBLIC. WE WILL NOT BE RESPONSIBLE OR LIABLE FOR THE EXERCISE OR NON-EXERCISE OF THIS RIGHT UNDER THESE TERMS OF SERVICE.
+5. YOUR PROPERTY RIGHTS AND THE LICENSES YOU GRANT TO MEEGAUPLOAD
+EXCEPT WHERE STATED OTHERWISE IN THESE TERMS OF SERVICE OR ELSEWHERE ON THE SITE (SEE "THIRD PARTIES: CONTENT PRODUCERS AND WEBSITES," BELOW), WE CLAIM NO OWNERSHIP OR CONTROL OVER ANY USER-GENERATED CONTENT. YOU RETAIN ANY AND ALL TRADEMARK RIGHTS AND COPYRIGHT TO ANY USER-GENERATED CONTENT THAT YOU SUBMIT, POST OR DISPLAY ON OR THROUGH THE SITE OR THE SERVICES AND YOU ARE RESPONSIBLE FOR PROTECTING THOSE RIGHTS.
+WHILE YOU OWN ALL OF YOUR OWN USER-GENERATED CONTENT, YOU HEREBY GRANT US, OUR LICENSEES OF THE APPLICATIONS AND BUSINESS PARTNERS A NON-EXCLUSIVE, WORLDWIDE, ROYALTY-FREE, SUBLICENSABLE, PERPETUAL AND IRREVOCABLE RIGHT AND LICENSE TO USE AND EXPLOIT YOUR USER-GENERATED CONTENT FOR ANY PURPOSE. FURTHERMORE, YOU HEREBY GRANT US, OUR LICENSEES OF THE APPLICATIONS AND BUSINESS PARTNERS THE RIGHT TO PUBLICLY EXHIBIT, DISPLAY, REPRODUCE, STORE, DISTRIBUTE, ALTER OR MAKE OTHER USE OF VIDEOS, PHOTOGRAPHS, IMAGES OR LIKENESSES OF YOU, OR IN WHICH YOU MAY BE INCLUDED WITH OTHERS. YOU CONSENT TO SUCH USES IN ANY MEDIUM NOW KNOWN OR DEVELOPED IN THE FUTURE, INCLUDING PHOTOGRAPHS, VIDEO, SLIDE SHOWS, INTERNET IMAGES OR OTHER MEDIUMS, MEANS OF STORAGE OR DISTRIBUTION. YOU AGREE THAT SUCH IMAGES AND LIKENESSES OF YOU CAN BE USED WITH OR WITHOUT YOUR NAME. YOU GIVE THIS PERMISSION WITHOUT ANY LIMITATION WHATSOEVER. IN CONSIDERATION OF THE OPPORTUNITY TO HAVE YOUR IMAGE, LIKENESS AND/OR NAME USED AS SET FORTH ABOVE, YOU AGREE TO RELEASE AND DISCHARGE US, OUR LICENSEES OF THE APPLICATIONS AND BUSINESS PARTNERS FROM ANY CLAIMS, ACTIONS AND DEMANDS OF ANY NATURE, INCLUDING BUT NOT LIMITED TO ANY CLAIMS OF LIBEL, INFRINGEMENT OF THE RIGHT OF PUBLICITY, INVASION OF PRIVACY, PORTRAYAL IN A FALSE LIGHT, OR OTHER CLAIM, BASED ON OR ARISING OUT OF OR IN CONNECTION WITH THE ABOVE-STATED USES OF IMAGES OF YOU OR YOUR IMAGE, LIKENESS OR NAME.
+IN GRANTING THESE LICENSE TO US, OUR LICENSEES OF THE APPLICATIONS AND BUSINESS PARTNERS, YOU REPRESENT AND WARRANT THAT YOU OWN OR HAVE THE NECESSARY LICENSES, RIGHTS, CONSENTS, POWER, AUTHORITY AND PERMISSIONS TO GRANT THESE LICENSES, WHICH INCLUDE BUT ARE NOT LIMITED TO ANY THIRD PARTY RIGHTS THAT ARE REQUIRED AS A RESULT OF THE SUBJECT MATTER OF YOUR USER-GENERATED CONTENT. 
+6. MEEGAUPLOAD PROPERTY
+OTHER THAN YOUR OWN USER-GENERATED CONTENT, WE OWN ALL RIGHT, TITLE AND INTEREST, INCLUDING ALL WORLDWIDE INTELLECTUAL PROPERTY RIGHTS IN THE SITE, MEEGAUPLOAD CONTENT, SERVICES, AND APPLICATIONS CONTAINED THEREIN. THE SITE, MEEGAUPLOAD CONTENT, SERVICES, AND APPLICATIONS ARE PROTECTED BY COPYRIGHT, AND MIGHT BE PROTECTED BY TRADEMARK, AND OTHER LAWS. EXCEPT AS EXPRESSLY PERMITTED IN THESE TERMS OF SERVICE, YOU MAY NOT REPRODUCE, MODIFY OR PREPARE DERIVATIVE WORKS BASED UPON, DISTRIBUTE, SELL, TRANSFER, PUBLICLY DISPLAY, PUBLICLY PERFORM, OR OTHERWISE USE THE SITE, MEEGAUPLOAD CONTENT OR SERVICES. YOU MAY NOT COPY OR MODIFY THE HTML AND CSS CODE USED TO GENERATE WEB PAGES ON THE SITE. YOU WILL NOT REMOVE, ALTER OR CONCEAL ANY COPYRIGHT, TRADEMARK, SERVICE MARK OR OTHER PROPRIETARY RIGHTS NOTICES INCORPORATED IN, OR ACCOMPANYING ANY PORTION OF, MEEGAUPLOAD OR RELATED PRODUCTS AND SERVICES. OTHER THAN EXPLICITLY STATED HEREIN, YOU MAY NOT MAKE ANY COMMERCIAL USE OF THE SITE, MEEGAUPLOAD CONTENT AND SERVICES WITHOUT MEEGAUPLOAD'S PRIOR WRITTEN APPROVAL. 
+7. THE APPLICATIONS
+WE MIGHT PROVIDE APPLICATIONS, SUCH AS I.E. AN  IPHONE MEEGAUPLOAD APP, TO GIVE USERS THE ABILITY TO ENJOY OUR SERVICE ON MULTIPLE DEVICES. WE ARE WILLING TO LICENSE THE APPLICATIONS TO YOU ONLY UPON THE CONDITION THAT YOU ACCEPT THESE TERMS OF SERVICE. BY INSTALLING, USING OR ACCESSING THE APPLICATIONS, YOU AGREE TO BE BOUND BY THESE TERMS OF SERVICE. IF YOU DO NOT ACCEPT THESE TERMS OF SERVICE, THEN WE ARE UNWILLING TO LICENSE THE APPLICATIONS TO YOU.
+SUBJECT TO YOUR ACCEPTANCE AND COMPLIANCE WITH THESE TERMS OF SERVICE, WE GRANT YOU A PERSONAL, NON-TRANSFERABLE, NON-EXCLUSIVE, REVOCABLE LICENSE FOR YOU TO INSTALL AND USE THE APPLICATIONS FOR THE PURPOSES OF ACCESSING MEEGAUPLOAD. 
+9. THE MEEGAUPLOAD LOGO 
+THE MEEGAUPLOAD LOGO IS PROTECTED BY COPYRIGHT, AND MIGHT BE PROTECTED BY TRADEMARK, AND OTHER LAWS. 
+10. THIRD PARTIES: SOCIAL NETWORKING PLATFORMS AND WEBSITES
+WE WILL BE INTEGRATING WITH AN ARRAY OF THIRD PARTY CONSUMER PLATFORMS AND WEBSITES. WHEN YOU ACCESS, POST OR OTHERWISE CREATE OR PROVIDE USER-GENERATED CONTENT ON A THIRD PARTY SERVICES THROUGH THE USE OF THE APPLICATIONS OR OTHERWISE, YOUR USER-GENERATED CONTENT MAY BE GOVERNED BY THAT SERVICE'S USER AGREEMENT. REGARDLESS OF WHETHER YOUR CONSENT IS REQUIRED, WE URGE YOU TO REVIEW THESE THIRD PARTY AGREEMENTS BEFORE CONTRIBUTING TO THESE SERVICES SO AS UNDERSTAND HOW THEIR TERMS MAY AFFECT THE OWNERSHIP OF YOUR CONTENT. BY ACCEPTING THESE TERMS OF SERVICE, YOU HEREBY EXPRESSLY RELIEVE US FROM ANY AND ALL LIABILITY ARISING IN CONNECTION WITH YOUR USE OF ANY THIRD PARTY SERVICE. 
+11. GENERAL PROHIBITIONS
+YOU AGREE NOT TO DO ANY OF THE FOLLOWING WHILE USING MEEGAUPLOAD: 
+•	POST, PUBLISH OR TRANSMIT ANY TEXT, GRAPHICS, OR MATERIAL THAT: (I) IS FALSE OR MISLEADING; (II) IS DEFAMATORY; (III) INVADES ANOTHER'S PRIVACY; (IV) IS OBSCENE, PORNOGRAPHIC, OR OFFENSIVE; (V) PROMOTES BIGOTRY, RACISM, HATRED OR HARM AGAINST ANY INDIVIDUAL OR GROUP; (VI) INFRINGES ANOTHER'S RIGHTS, INCLUDING BUT NOT LIMITED TO ANY INTELLECTUAL PROPERTY RIGHTS; OR (VII) VIOLATES, OR ENCOURAGES ANY CONDUCT THAT WOULD VIOLATE, ANY APPLICABLE LAW OR REGULATION OR WOULD GIVE RISE TO CIVIL LIABILITY; 
+•	ACCESS, TAMPER WITH, OR USE NON-PUBLIC AREAS OF THE SITE, OUR COMPUTER SYSTEMS, OR THE TECHNICAL DELIVERY SYSTEMS OF OUR PROVIDERS; 
+•	ATTEMPT TO PROBE, SCAN, OR TEST THE VULNERABILITY OF ANY SYSTEM OR NETWORK OR BREACH ANY SECURITY OR AUTHENTICATION MEASURES; 
+•	ATTEMPT TO ACCESS OR SEARCH MEEGAUPLOAD WITH ANY ENGINE, SOFTWARE, TOOL, AGENT, DEVICE OR MECHANISM OTHER THAN THE SOFTWARE AND/OR SEARCH AGENTS PROVIDED, OR SPECIFICALLY AUTHORIZED, BY US OR OTHER GENERALLY AVAILABLE THIRD PARTY WEB BROWSERS (SUCH AS MICROSOFT INTERNET EXPLORER OR NETSCAPE NAVIGATOR); 
+•	ATTEMPT TO ALTER OR MODIFY THE SITE, MEEGAUPLOAD CONTENT, SERVICES OR APPLICATIONS OR USE MEEGAUPLOAD FOR PURPOSES OTHER THAN WHICH THEY WERE INTENDED; 
+•	SEND UNSOLICITED EMAIL, JUNK MAIL, "SPAM," CHAIN LETTERS, OR PROMOTIONS OR ADVERTISEMENTS FOR PRODUCTS OR SERVICES; 
+•	FORGE ANY TCP/IP PACKET HEADER OR ANY PART OF THE HEADER INFORMATION IN ANY EMAIL OR POSTING, OR IN ANY WAY USE MEEGAUPLOAD TO SEND ALTERED, DECEPTIVE OR FALSE SOURCE-IDENTIFYING INFORMATION; 
+•	ATTEMPT TO DECIPHER, DECOMPILE, DISASSEMBLE OR REVERSE ENGINEER ANY OF THE SOFTWARE USED TO PROVIDE MEEGAUPLOAD; 
+•	INTERFERE WITH, OR ATTEMPT TO INTERFERE WITH, THE ACCESS OF ANY USER, HOST OR NETWORK, INCLUDING, WITHOUT LIMITATION, SENDING A VIRUS, OVERLOADING, FLOODING, SPAMMING, OR MAIL-BOMBING THE SITE; OR 
+•	IMPERSONATE OR MISREPRESENT YOUR AFFILIATION WITH ANY PERSON OR ENTITY. 
+WE WILL HAVE THE RIGHT TO INVESTIGATE AND PROSECUTE VIOLATIONS OF ANY OF THE ABOVE, INCLUDING INTELLECTUAL PROPERTY RIGHTS INFRINGEMENT AND SITE SECURITY ISSUES, TO THE FULLEST EXTENT OF THE LAW. WE MAY INVOLVE AND COOPERATE WITH LAW ENFORCEMENT AUTHORITIES IN PROSECUTING USERS WHO VIOLATE THESE TERMS OF SERVICE. YOU ACKNOWLEDGE THAT WE HAVE THE RIGHT TO MONITOR YOUR ACCESS TO OR USE OF MEEGAUPLOAD FOR OPERATING PURPOSES, TO ENSURE YOUR COMPLIANCE WITH THESE TERMS OF SERVICE, OR TO COMPLY WITH APPLICABLE LAW OR THE ORDER OR REQUIREMENT OF A COURT, ADMINISTRATIVE AGENCY OR OTHER GOVERNMENTAL BODY. 
+12. DIGITAL MILLENNIUM COPYRIGHT ACT COMPLIANCE
+YOU WILL ONLY UPLOAD, POST, SUBMIT OR OTHERWISE TRANSMIT USER-GENERATED CONTENT: (I) THAT YOU HAVE THE LAWFUL RIGHT TO USE, COPY, DISTRIBUTE, TRANSMIT, OR DISPLAY; AND (II) THAT DOES NOT INFRINGE THE INTELLECTUAL PROPERTY RIGHTS OR VIOLATE THE PRIVACY RIGHTS OF ANY THIRD PARTY (INCLUDING, WITHOUT LIMITATION, COPYRIGHT, TRADEMARK, PATENT, TRADE SECRET, OR OTHER INTELLECTUAL PROPERTY RIGHT, OR MORAL RIGHT OR RIGHT OF PUBLICITY). WE WILL IN APPROPRIATE CIRCUMSTANCES TERMINATE THE ACCOUNTS OF USERS WHO REPEATEDLY INFRINGE OR ARE BELIEVED TO BE OR ARE CHARGED WITH REPEATEDLY INFRINGING THE RIGHTS OF COPYRIGHT HOLDERS. 
+13. LINKS
+MEEGAUPLOAD MAY CONTAIN LINKS TO THIRD PARTY WEBSITES OR RESOURCES. YOU ACKNOWLEDGE AND AGREE THAT WE ARE NOT RESPONSIBLE OR LIABLE FOR: (I) THE AVAILABILITY OR ACCURACY OF SUCH WEBSITES OR RESOURCES; OR (II) THE CONTENT, PRODUCTS, OR SERVICES ON OR AVAILABLE FROM SUCH WEBSITES OR RESOURCES. LINKS TO SUCH WEBSITES OR RESOURCES DO NOT IMPLY ANY ENDORSEMENT BY US OF SUCH WEBSITES OR RESOURCES OR THE CONTENT, PRODUCTS, OR SERVICES AVAILABLE FROM SUCH WEBSITES OR RESOURCES EVEN IF THEY ARE GRAPHICALLY PRESENTED WITHIN THE MEEGAUPLOAD SERVICES IN WHATSOEVER FORM, E.G. USING AN IFRAME TECHNIQUE. YOU ACKNOWLEDGE SOLE RESPONSIBILITY FOR AND ASSUME ALL RISK ARISING FROM YOUR USE OF ANY SUCH WEBSITES OR RESOURCES. 
+14. TERMINATION
+IF YOU VIOLATE ANY OF THESE TERMS OF SERVICE, YOUR PERMISSION TO USE AND ACCESS MEEGAUPLOAD WILL AUTOMATICALLY TERMINATE. SHOULD YOUR ACCOUNT OR USAGE BE TERMINATED, YOU ARE PROHIBITED FROM CREATING ANY NEW ACCOUNTS OR OTHERWISE ACCESSING MEEGAUPLOAD WITHOUT OUR PRIOR WRITTEN APPROVAL. WE RESERVE THE RIGHT TO REVOKE YOUR ACCESS TO AND USE OF MEEGAUPLOAD AT ANY TIME, WITH OR WITHOUT CAUSE. WE ALSO RESERVE THE RIGHT TO CEASE PROVIDING OR TO CHANGE MEEGAUPLOAD AT ANY TIME AND WITHOUT NOTICE. 
+15. USE OF MEEGAUPLOAD AT YOUR OWN RISK
+YOUR ACCESS TO AND USE OF MEEGAUPLOAD IS AT YOUR OWN RISK. WE WILL HAVE NO RESPONSIBILITY FOR ANY HARM TO YOUR COMPUTER SYSTEM, LOSS OF DATA, OR OTHER HARM THAT RESULTS FROM YOUR ACCESS TO OR USE OF MEEGAUPLOAD. 
+16. MEEGAUPLOAD IS AVAILABLE "AS-IS"
+MEEGAUPLOAD IS PROVIDED "AS IS," WITHOUT WARRANTY OR CONDITION OF ANY KIND, EITHER EXPRESS OR IMPLIED. WITHOUT LIMITING THE FOREGOING, WE EXPLICITLY DISCLAIM ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT.
+WE MAKE NO WARRANTY THAT MEEGAUPLOAD WILL MEET YOUR REQUIREMENTS OR BE AVAILABLE ON AN UNINTERRUPTED, SECURE, OR ERROR-FREE BASIS. WE MAKE NO WARRANTY REGARDING THE QUALITY OF ANY PRODUCTS, SERVICES OR INFORMATION PURCHASED OR OBTAINED THROUGH MEEGAUPLOAD OR THE ACCURACY, TIMELINESS, TRUTHFULNESS, COMPLETENESS OR RELIABILITY OF ANY INFORMATION OBTAINED THROUGH MEEGAUPLOAD. WE ASSUME NO RESPONSIBILITY FOR ANY: PERSONAL INJURY OR PROPERTY DAMAGE OF ANY NATURE WHATSOEVER RESULTING FROM YOUR ACCESS TO AND USE OF MEEGAUPLOAD; UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION STORED THEREIN; ANY UNAUTHORIZED USE, DISPLAY, PERFORMANCE OR DISTRIBUTION OF YOUR USER-GENERATED CONTENT BY US (UNLESS DUE TO OUR INTENTIONAL FAILURE) OR BY A THIRD PARTY; YOUR INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM MEEGAUPLOAD; AND/OR ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH MEEGAUPLOAD BY ANY THIRD PARTY.
+NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED FROM OR THROUGH MEEGAUPLOAD WILL CREATE ANY WARRANTY NOT EXPRESSLY MADE HEREIN. 
+17. INDEMNITY
+YOU AGREE TO DEFEND, INDEMNIFY, AND HOLD US, OUR OFFICERS, DIRECTORS, EMPLOYEES AND AGENTS, HARMLESS FROM AND AGAINST ANY CLAIMS, LIABILITIES, DAMAGES, LOSSES AND EXPENSES, INCLUDING, WITHOUT LIMITATION, REASONABLE ATTORNEYS' FEES AND COSTS, ARISING OUT OF OR IN ANY WAY CONNECTED WITH: (I) YOUR ACCESS TO OR USE OF MEEGAUPLOAD; (II) YOUR VIOLATION OF THESE TERMS OF SERVICE; (III) YOUR VIOLATION OF ANY THIRD PARTY RIGHT, INCLUDING WITHOUT LIMITATION ANY INTELLECTUAL PROPERTY RIGHT, INCLUDING BUT NOT LIMITED TO RIGHT OF ATTRIBUTION, PUBLICITY, CONFIDENTIALITY, PROPERTY OR PRIVACY RIGHT; OR (IV) ANY CLAIM THAT YOUR USER-GENERATED CONTENT CAUSED DAMAGE TO A THIRD PARTY, INCLUDING, WITHOUT LIMITATION, CLAIMS THAT YOUR USER-GENERATED CONTENT IS INFRINGING. 
+18. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WE WILL NOT, NOR WILL ANY OTHER PARTY INVOLVED IN CREATING, PRODUCING, OR DELIVERING MEEGAUPLOAD, BE LIABLE FOR ANY INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES RESULTING FROM YOUR ACCESS TO OR USE OF, OR INABILITY TO ACCESS OR USE, MEEGAUPLOAD, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE) OR ANY OTHER LEGAL THEORY, WHETHER OR NOT WE HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGE, EVEN IF A REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE. YOU SPECIFICALLY ACKNOWLEDGE THAT WE ARE NOT LIABLE FOR THE DEFAMATORY, OFFENSIVE OR ILLEGAL CONDUCT OF OTHER USERS OR THIRD PARTIES AND THAT THE RISK OF INJURY FROM THE FOREGOING RESTS ENTIRELY WITH YOU. FURTHER, WE WILL HAVE NO LIABILITY TO YOU OR TO ANY THIRD PARTY FOR ANY THIRD PARTY CONTENT UPLOADED ONTO, DOWNLOADED FROM, OR LINKED TO MEEGAUPLOAD.
+YOU AGREE THAT OUR AGGREGATE LIABILITY TO YOU FOR ANY AND ALL CLAIMS ARISING FROM THE USE OF MEEGAUPLOAD IS LIMITED TO TWENTY ($20) U.S DOLLARS. THE LIMITATIONS OF DAMAGES SET FORTH ABOVE ARE FUNDAMENTAL ELEMENTS OF THE BASIS OF THE BARGAIN BETWEEN US AND YOU. YOU AGREE THAT ANY CAUSE OF ACTION YOU MAY HAVE ARISING OUT OF OR RELATED TO MEEGAUPLOAD  MUST COMMENCE WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES. OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED.
+SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+19. FEEDBACK
+WE ENCOURAGE YOU TO PROVIDE FEEDBACK, COMMENTS AND SUGGESTIONS REGARDING MEEGAUPLOAD, AND PROVIDE RESPONSES TO OUR USER SURVEYS ("FEEDBACK"). FEEDBACK MAY BE SUBMITTED TO CONTACT@MEEGA<a id="__cf_email__" href="http://cloudflare.com/email-protection.html" class="e4b1b4a8aba5a0caaaa1b0ca">[email&nbsp;protected]</a><script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementById("__cf_email__");a=l.className;if(a){s='';r=parseInt(a.substr(0,2),16);for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
+/* ]]> */
+</script> YOU ACKNOWLEDGE AND AGREE THAT ALL FEEDBACK WILL BE OUR SOLE AND EXCLUSIVE PROPERTY AND YOU HEREBY ASSIGN AND AGREE TO ASSIGN ALL RIGHTS, TITLE AND INTEREST YOU HAVE IN SUCH FEEDBACK TO US TOGETHER WITH ALL INTELLECTUAL PROPERTY RIGHTS THEREIN. 
+20. SEVERABILITY
+IN THE EVENT THAT ANY PROVISION OF THESE TERMS OF SERVICE IS HELD TO BE INVALID OR UNENFORCEABLE, THE REMAINING PROVISIONS OF THESE TERMS OF SERVICE WILL REMAIN IN FULL FORCE AND EFFECT. 
+21. WAIVER
+OUR FAILURE TO ENFORCE ANY RIGHT OR PROVISION OF THESE TERMS OF SERVICE WILL NOT BE DEEMED A WAIVER OF SUCH RIGHT OR PROVISION. 
+22. CONTROLLING LAW AND JURISDICTION
+THESE TERMS OF SERVICE AND ANY ACTION RELATED THERETO WILL BE GOVERNED BY THE LAWS OF THE STATE OF CALIFORNIA WITHOUT REGARD TO ITS CONFLICT OF LAW PROVISIONS. THE EXCLUSIVE JURISDICTION AND VENUE OF ANY ACTION WITH RESPECT TO THE SUBJECT MATTER OF THESE TERMS OF SERVICE WILL BE THE STATE COURTS LOCATED IN VARESE, ITALY, AND EACH OF THE PARTIES HERETO WAIVES ANY OBJECTION TO JURISDICTION AND VENUE IN SUCH COURTS. 
+23. ENTIRE AGREEMENT
+EXCEPT WHERE NOTED, THESE TERMS OF SERVICE ARE THE ENTIRE AND EXCLUSIVE AGREEMENT BETWEEN US AND YOU REGARDING MEEGAUPLOAD AND THESE TERMS OF SERVICE SUPERSEDE AND REPLACE ANY PRIOR AGREEMENTS BETWEEN US AND YOU REGARDING MEEGAUPLOAD. NOTHING IN THIS AGREEMENT SHALL BE DEEMED TO CONFER ANY THIRD PARTY RIGHTS OR BENEFITS. 
+IF YOU HAVE ANY QUESTIONS ABOUT THESE TERMS OF SERVICE, PLEASE FEEL FREE TO CONTACT US AT <a id="__cf_email__" href="http://cloudflare.com/email-protection.html" class="1e5d51504a5f5d4a5e535b5b595f4b4e52515f5a30505b4a30">[email&nbsp;protected]</a><script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementById("__cf_email__");a=l.className;if(a){s='';r=parseInt(a.substr(0,2),16);for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
+/* ]]> */
+</script> 
+
+			   </div>
+        
+            
+			 <div id="carouselswf_div"></div>
+
+			<div id="carouselswf"></div>
+		 	  <script type="text/javascript">
+		 	 
+			  </script>
+			
+			</div>
+          </div>
+          <div class="start_carousel_mid_bg" id="c1"> <a href="javascript:carousel('c1')" class="start_car_nw_lnk"></a> </div>
+          <div id="c1_block" class="start_carousel_block_closed"><a href="javascript:carousel('c1')" class="close_carousel"></a>
+            <div>
+              <div class="st_nw_block1_bg">
+                <div class="st_nw_block_txt"> </div>
+              </div>
+              <div class="st_nw_block2_bg">
+                <div class="st_nw_block_txt"> </div>
+              </div>
+              <div class="st_nw_block3_bg">
+                <div class="st_nw_block_txt"> </div>
+              </div>
+              <div class="st_nw_block4_bg">
+                <div class="st_nw_block_txt"> </div>
+              </div>
+              <div class="st_nw_block5_bg">
+                <div class="st_nw_block_txt"> </div>
+              </div>
+              <div class="st_nw_block6_bg">
+                <div class="st_nw_block_txt"> </div>
+              </div>
+              <div class="st_nw_block7_bg">
+                <div class="st_nw_block_txt">
+                  <div class="clear"></div>
+                </div>
+              </div>
+              <div class="st_nw_block8_bg">
+                <div class="st_nw_block_txt"> <a href="#" class="st_nw_premium"></a> <a href="#" class="st_nw_free"></a>
+                  <div class="clear"></div>
+                </div>
+              </div>
+              <div class="st_nw_block9_bg">
+                <div class="st_nw_block_txt"> </div>
+              </div>
+              <div class="st_nw_block10_bg">
+                <div class="st_nw_block_txt"> <a href="#" class="st_nw_premium_lnk"></a> <a href="#" class="st_nw_free_lnk"></a>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="faq_bott_shadow">
+          <div class="faq_bott_shadow_bg"></div>
+        </div>
+      </div>
+      <div class="bottom_bl">
+        <div class="foot_bg1"></div>
+        <div class="bott_butt1"><a href="page.html" class="f_butt_1" target="_blank"></a></div>
+
+<div class="bott_butt2"><a href="page.html" class="f_butt_2 "></a></div>
+
+<div class="bott_butt3"><a href="page.html" class="f_butt_3 "></a></div>
+
+<div class="bott_butt4"><a href="privacy.html" class="f_butt_4 "></a></div>
+
+<div class="bott_butt5"><a href="terms.html" class="f_butt_5 "></a></div>
+
+<div class="bott_butt6"><a href="page.html" class="f_butt_6 "></a></div>
+
+
+
+
+
+
+        <div class="clear"></div>
+      </div>
+      <div class="powered_bl"></div>
+	  <div class="clear"></div>
+      </div></td>
+    <td class="right_top" ><div class="r_top_bg">
+        <div class="right_top_bg"></div>
+      </div>
+      <div class="mid_right_bg1">
+        <div class="mid_right_bg2"></div>
+      </div></td>
+  </tr>
+</table>
+
+
+
+
+
+<div id="carousel_player_div" class="carousel_player">
+<div id="carouselplayerswf_div"></div>
+<a href="javascript:closevideo();" class="close_flash_nw" style="left:955px; top:-16px; display:none;" id="flashclosebtn"></a>
+</div>
+
+
+<div id="fadeout3" class="grayblock" style="display:none;"></div>
+
+
+
+
+
+<div class="fm_popup" style="width:644px;" id="popup_notify">
+  <div class="fm_popup_bg1"> </div>
+  <div class="fm_popup_bg2">
+    <div> <a href="javascript:closeNotify();" class="fm_import_close_but"></a> </div>
+  </div>
+  <div class="fm_popup_bg3">
+    <div class="fm_popup_message_txt"> </div>
+  </div>
+  <div class="clear"></div>
+  <div class="fm_popup_bg4">
+    <div class="fm_popup_bg5">
+      <div class="fm_popup_main1">
+        <div class="fm_popup_del_txt" id="notify_txt" style="line-height:22px;"></div>
+        <div class="fm_mess_butt_bl"> <a href="javascript:closeNotify();" class="fm_message_ok"></a> </div>
+      </div>
+    </div>
+  </div>
+  <div class="fm_popup_bg6"> </div>
+  <div class="fm_popup_bg7"> </div>
+  <div class="fm_popup_bg8"> </div>
+</div>
+<div id="fadeout" class="grayblock" style="display:none;" onclick="closeNotify();"></div>
+
+
+
+
+
+<div class="fm_popup" style="width:644px;" id="popup_payment">
+  <div class="fm_popup_bg1"> </div>
+  <div class="fm_popup_bg2">
+    <div> <a href="javascript:closePayment();" class="fm_import_close_but"></a> </div>
+  </div>
+  <div class="fm_popup_bg3">
+    <div class="fm_popup_message_txt"> </div>
+  </div>
+  <div class="clear"></div>
+  <div class="fm_popup_bg4">
+    <div class="fm_popup_bg5">
+      <div class="fm_popup_main1">
+        <div class="fm_popup_del_txt" id="payment_txt" style="line-height:22px;"></div>
+        <div class="fm_mess_butt_bl"> <a href="javascript:closePayment();" class="fm_message_ok"></a> </div>
+      </div>
+    </div>
+  </div>
+  <div class="fm_popup_bg6"> </div>
+  <div class="fm_popup_bg7"> </div>
+  <div class="fm_popup_bg8"> </div>
+</div>
+<div id="fadeout4" class="grayblock" style="display:none;" onclick="closePayment();"></div>
+<!-- Histats.com  START (hidden counter)-->
+<script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
+<a href="http://www.histats.com/" target="_blank" title="statistiche sito" ><script  type="text/javascript" >
+try {Histats.start(1,1792610,4,0,0,0,"");
+Histats.track_hits();} catch(err){};
+</script></a>
+<noscript><a href="http://www.histats.com/" target="_blank"><img  src="../sstatic1.histats.com/06ce1.gif?1792610&amp;101" alt="statistiche sito" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<!-- Mirrored from meegaupload.net/terms.html by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 25 Jan 2012 17:35:08 GMT -->
+</html>

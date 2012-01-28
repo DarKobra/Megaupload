@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from meegaupload.net/privacy.html by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 25 Jan 2012 17:35:07 GMT -->
+<head>
+<meta charset="utf-8">
+<title>MEGAUPLOAD  - We are working for a new and beautiful dream: stay tuned! - Megaupload.com</title>
+<meta name="robots" content="noodp,noydir"/>
+<meta name="robots" content="noarchive">
+<meta property='og:title' content='MEGAUPLOAD is back - Megaupload.com'/>
+<meta property='og:description' content='This is the new MEGAUPLOAD site! We are working to be back full again!'/>
+<meta property='og:url' content='http://www.meegaupload.net/'/>
+<meta property='og:site_name' content='This is the new MEGAUPLOAD site! We are working to be back full again'/>
+<meta property='og:image' content='../www.meegaupload.net/muimg/megaupload_logo.jpg'/>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/start.css" />
+<link rel="stylesheet" type="text/css" href="css/en/style.css" />
+<link rel="stylesheet" type="text/css" href="css/en/start.css" />
+<link rel="icon" href="faviconmu.html" type="image/x-icon">
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+</head>
+
+<body onresize="posNotifyReversePayment();" onscroll="posNotifyReversePayment();" onload="init();">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="top_td_bg">&nbsp;</td>
+    <td class="top_td_bg"></td>
+    <td class="top_td_bg">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="left_top"><div class="l_top_bg">
+        <div class="left_top_bg"></div>
+      </div>
+      <div class="mid_left_bg1">
+        <div class="mid_left_bg2"></div>
+      </div></td>
+    <td class="left_top main_width"><div class="main_top_l">
+        <div class="main_top_r"> 
+		<a href="http://www.meegaupload.net/" class="logo_lnk"></a>
+
+<div class="lang_pad"> <a id="langSelectionSP" class="lng_en_a" onclick="langSelection.turn()"></a></div>
+
+<div class="top_buttons_pad" ><a href="#" class="top_reg_butt"></a></div>
+
+<div class="top_buttons_pad" ><a href="#" class="top_log_butt"></a></div>
+
+<script type="text/javascript">
+
+ function signout() { document.getElementById('logoutfrm').submit(); } 
+
+</script>
+
+<FORM method="POST" id="logoutfrm"><input type="hidden" name="logout" value="1"></FORM>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="top_line"></div>
+      <div class="top_menu_block">
+        <div class="top_butt1"><a href="page.html" class="butt_1"></a></div>
+
+<div class="top_butt2"><a href="page.html" class="butt_2"></a></div>
+
+<div class="top_butt3"><a href="page.html" class="butt_3"></a></div>
+
+<div class="top_butt4"><a href="page.html" class="butt_4"></a></div>
+
+<div class="top_butt5"><a href="page.html" class="butt_5"></a></div>
+
+<div class="top_butt6"><a href="page.html" class="butt_6"></a></div>
+        <div class="clear" ></div>
+      </div>
+      <div class="main_bg start">
+        <div class="b_page_top"></div>
+        <div class="main_shadow1"></div>
+        <div class="main_shadow2 start">
+          <div class="start_main_bg1">
+		  
+			<div class="start_files_pad" id="filesblock_pad" style="display:none;">
+			<div id="filesblock"></div>
+			<div class="clear"></div>
+			</div>
+
+			<div style="display:none;" id="uploadcomplete">
+              <div class="start_vertical_div"></div>
+              <div class="start_clock_block">
+                <div class="start_success_pad">
+                  <div class="start_uploads_success"></div>
+                </div>
+              </div>
+            </div>
+		
+			<div style="display:none;" id="progress_div">
+              <div class="start_vertical_div"></div>
+              <div class="start_clock_block">
+                <div class="start_time_left"> </div>
+                <div class="start_timer" id="progress_timers"> 
+				  00:00:00<br />
+                  00:00:00 </div>
+                <div class="start_clock_icon"> </div>
+                <div class="start_transfer_bl">
+                  <div class="start_transfer_rate"></div>
+                  <div> <span class="start_transfer_num" id="progress_num"></span><span class="start_transfer_txt" id="progress_txt"></span> </div>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+
+		
+
+	         <div id="sel_but1_bg">
+              <div id="checkboxtos_div" class="checkboxOff" style="display:none" >
+                <input type="checkbox" id="checkboxtos" onClick="checktos(0);" class="checkboxOff" >
+              </div>
+              <div id="sel_but1_txt" class="start_terms_txt" style="display:none;cursor:default;" onclick="checktos(1);"> By sending files to Megaupload, you agree to our </div>
+              <div id="sel_but1_step1_txt" class="start_step1_txt" > </div>
+              <a href="#" target="_blank" id="sel_but1_lnk" class="start_terms_lnk" style="display:none">Terms of Service</a> 
+              <a href="javascript:void(0);" id="sel_but1"  class="start_select_butt">
+              
+              <div style="width:342px; height:62px;"><div id="uploaderswf_div"></div></div>
+		 	  
+              
+              </a>
+              <div class="clear"></div>
+              <a href="javascript:startupload();" id="sel_but2"  class="start_upload_butt" style="display:none" ></a> 
+            </div>
+            <div class="start_but_shadow" id="startbutshadow"></div>         
+
+          </div>
+        </div>
+        <div class="main_shadow3 download" id="shadow3div"></div>
+        <div class="main_start_separator"></div>
+        <div class="main_shadow1"></div>
+        <div class="main_shadow2 start">
+          <div class="start_flash_block">
+            <div class="start_flash" style="width:970px;">
+			 
+			   <div style="height:230px;overflow:auto;text-align:left;padding:5px 15px 5px 15px;margin:20px 0px 0px 10px;border:1px solid #ccc;">
+			   		<h3>PRIVACY POLICY</h3>WE BUILT MEEGAUPLOAD TO OFFER YOU THE POSSIBILITY TO KEEP UPDATED ABOUT THE ONGOINGS OF A POPULAR FILESHARING SYSTEM AND IN ORDER TO BUILD NEW ALTERNATIVE SOLUTIONS. WE THEREFORE MAY COLLECT, RE-ORGANIZE AND MANAGE USER CONTRIBUTED CONTENT, USER INFORMATION, USER ACTIVITY DATA IN ORDER ALLOW US AND OUR PARTNERS TO OFFER YOU THE BEST POSSIBLE SERVICE BY DELIVERING YOU CUSTOMIZED AND TAILORED CONTENT AS WELL AS RELEVANT ADVERTISING. THIS PRIVACY POLICY IS DESIGNED TO HELP YOU UNDERSTAND HOW WE SPECIFICALLY COLLECT, USE AND DISCLOSE YOUR INFORMATION. IF YOU HAVE ANY QUESTIONS OR COMMENTS ABOUT THIS PRIVACY POLICY, PLEASE CONTACT US AT MEEGAUPLOADPRIVACY POLICY EXTENTTHIS PRIVACY POLICY COVERS MEEGAUPLOAD'S TREATMENT OF PERSONAL INFORMATION THAT MEEGAUPLOAD COLLECTS WHILE YOU ARE ON THE SITE AND WHEN YOU USE THE SERVICES. THIS POLICY ALSO COVERS MEEGAUPLOAD'S TREATMENT OF ANY PERSONAL INFORMATION THAT MEEGAUPLOAD'S BUSINESS PARTNERS SHARE WITH MEEGAUPLOAD. THIS POLICY DOES NOT APPLY TO THE PRACTICES OF THIRD PARTIES THAT MEEGAUPLOAD DOES NOT OWN OR CONTROL, INCLUDING BUT NOT LIMITED TO THIRD PARTY SERVICES YOU CAN ACCESS THOUGH MEEGAUPLOAD, OR TO INDIVIDUALS THAT MEEGAUPLOAD DOES NOT EMPLOY OR MANAGE. AS OUR SERVICES INTEGRATES WITH THIRD-PARTY SITES, SUCH AS FACEBOOK (REGISTRED TRADEMARK), TWITTER (REGISTRED TRADEMARK)AND OTHER SOCIAL NETWORKS, WE ASSUME THAT YOU ARE ALREADY AWARE OF THEIR OWN PRIVACY POLICIES WHEN USING MEEGAUPLOAD AND WHEN YOU ALLOW MEEGAUPLOAD TO INTERACT WITH THESE SITES ON YOUR BEHALF. INFORMATION COLLECTION & USEBY VISITING AND INTERACTING WITH MEEGAUPLOAD OR ANY OF MEEGAUPLOAD'S SERVICES WHICH INCLUDES A LINK TO THIS PRIVACY POLICY (EACH, EVERY KIND OF EXTERNAL INTERFACE TYPE E.G AS A A PARTNER SITE OR AN IPHONE APP) (MEEGAUPLOAD AND PARTNER SITES, EACH MEEGAUPLOAD SITE), YOU PROVIDE US THREE TYPES OF INFORMATION: CONTENT AND USER CONTRIBUTED CONTENT (AS DEFINED IN THE MEEGAUPLOAD  TERMS OF SERVICE); PERSONAL INFORMATION INCLUDING YOUR IP ADDRESS AND OTHER PERSONAL INFORMATION THAT YOU PURPOSELY DISCLOSE OR THAT YOU AUTHORIZE TO BE DISCLOSED ON YOUR BEHALF (PERSONAL INFORMATION); AND AUTOMATIC INFORMATION. USER CONTRIBUTED CONTENTYOU MAY BE ABLE TO SUBMIT TO MEEGAUPLOAD THE FOLLOWING KIND OF CONTENT, I.E. YOUR NAME, YOUR E-MAIL ADDRESS, OTHER PERSONAL INFORMATION, TEXT, MESSAGES, POSTS, HTML, URLS, IMAGES, VIDEO AND OTHER. THIS CONTENT BUILDS THE BASIS THROUGH WHICH MEEGAUPLOAD PROVIDES ITS SERVICES, AND CAN BE RESUBMITTED TO YOU AND TO OTHER MEEGAUPLOAD USERS. THIS CONTENT IS COLLECTED AND RETAINED TO BE PART OF YOUR PERSONAL AND INCREASED USER EXPERIENCE. PERSONAL INFORMATIONINFORMATION PROVIDED AT SUBSCRIPTION. IN ORDER TO ACCESS CERTAIN FUNCTIONALITY AND UPDATES OF THE SERVICE, YOU WILL BE REQUIRED TO BECOME A SUBSCRIBED USER. WHEN YOU SUBSCRIBE WITH US AT A MEEGAUPLOAD?S SITE (OR THROUGH AN EXTERNAL SERVICE AS E.G. A PARTNER WEBSITE OR AN IPHONE), WE COLLECT YOUR NAME, EMAIL ADDRESS, PASSWORD, LOCATION, IP ADDRESS, AS WELL AS ANY OTHER PERSONAL OR PREFERENCE INFORMATION THAT YOU CHOOSE TO PROVIDE. IF YOU SUBMIT YOUR CREDENTIALS (E.G., USERNAME AND PASSWORD) FOR A THIRD-PARTY WEBSITE (E.G., FACEBOOK OR TWITTER) DURING YOUR REGISTRATION FOR THE MEEGAUPLOAD SERVICE, MEEGAUPLOAD MIGHT WILL RECEIVE SUCH INFORMATION, AS WELL AS ANY OTHER INFORMATION THAT IS MADE AVAILABLE BY SUCH THIRD-PARTY WEBSITE. WE MAY OCCASIONALLY USE YOUR NAME AND EMAIL ADDRESS TO SEND YOU NOTIFICATIONS REGARDING NEW SERVICES OFFERED BY MEEGAUPLOAD THAT WE THINK YOU MAY FIND VALUABLE. WE MAY SEND YOU SERVICE-RELATED ANNOUNCEMENTS FROM TIME TO TIME THROUGH THE GENERAL OPERATION OF THE SERVICE. GENERALLY, YOU MAY OPT OUT OF SUCH EMAILS FROM CANCELING YOURSELF FROM THE SERVICE. PROFILE INFORMATION. ONCE YOU ARE A SUBSCRIBED USER, YOU MAY ADD ADDITIONAL INFORMATION TO YOUR PROFILE BY TIME. PROVIDING ADDITIONAL PROFILE INFORMATION BEYOND WHAT IS REQUIRED AT REGISTRATION IS ENTIRELY OPTIONAL, BUT ENABLES YOU TO BE DISCOVERED AND IMPROVE MEEGAUPLOAD?S TAILORED SERVICES. PROFILE INFORMATION YOU CAN ADD INCLUDES BUT IS NOT LIMITED TO YOUR TELEPHONE NUMBER, YOUR ADDRESS, A PERSONAL WEB SITE. INVITE A FRIEND. IF YOU CHOOSE TO USE OUR INVITATION SERVICE TO INVITE A FRIEND TO A CONVERSATION OR TO TELL A FRIEND ABOUT MEEGAUPLOAD, WE WILL ASK YOU FOR INFORMATION NEEDED TO SEND THE INVITATION, SUCH AS YOUR FRIEND'S EMAIL ADDRESS. WE WILL USE SUCH INFORMATION TO SEND YOUR FRIEND(S) AN EMAIL AND REMINDER E-MAILS IN YOUR NAME INVITING HIM OR HER TO VISIT MEEGAUPLOAD, TO ALLOW YOU TO SEE INVITATIONS YOU HAVE SENT, AND TO TRACK THE SUCCESS OF OUR REFERRAL PROGRAM. IN ORDER TO DO SO WE MIGHT USE EXTERNAL SERVICES SUCH AS LAUNCHROCK.COM OR MAILCHIMP.COM. YOUR FRIEND MAY UNSUBSCRIBE THROUGH THE LINK PROVIDED WITH SUCH CORRESPONDENCE, WHICH WILL PREVENT YOUR FRIEND FROM RECEIVING FURTHER CORRESPONDENCE, BUT WE MAY RETAIN YOUR FRIEND'S INFORMATION IN OUR DATABASE.CONTACTING US THROUGH A MEEGAUPLOAD SITE. IF YOU CONTACT US BY EMAIL THROUGH THE SITE, WE MAY KEEP A RECORD OF YOUR CONTACT INFORMATION AND CORRESPONDENCE AND WILL USE YOUR EMAIL AND CORRESPONDENCE IF WE DECIDE TO RESPOND TO YOU. AUTOMATIC INFORMATIONWE MAY RECEIVE AND STORE CERTAIN TYPES OF INFORMATION WHENEVER YOU INTERACT WITH US. MEEGAUPLOAD MAY AUTOMATICALLY RECEIVE AND RECORD INFORMATION ON OUR SERVER LOGS FROM YOUR BROWSER INCLUDING YOUR IP ADDRESS, MEEGAUPLOAD COOKIE INFORMATION, AND THE INFORMATION YOU REQUEST. MEEGAUPLOAD MAY USE THIS TRAFFIC DATA TO HELP DIAGNOSE PROBLEMS WITH ITS SERVER, ANALYZE TRENDS AND ADMINISTER THE SITE AND SERVICES OR IN ORDER TO IMPROVE ITS TAILORED SERVICES. OUR SERVICE MAY AUTOMATICALLY COLLECT USAGE INFORMATION, SUCH AS THE NUMBERS AND FREQUENCY OF VISITORS TO OUR SITE AND SERVICES AND THEIR COMPONENTS. MEEGAUPLOAD MAY USE THIS DATA IN AGGREGATE FORM, THAT IS, AS A STATISTICAL MEASURE, BUT NOT IN A MANNER THAT WOULD IDENTIFY YOU PERSONALLY. THIS TYPE OF AGGREGATE DATA MAY ENABLE US TO FIGURE OUT HOW OFTEN CUSTOMERS USE PARTS OF THE SITE AND SERVICES, SO WE CAN MAKE THE SITE AND SERVICES APPEALING TO AS MANY USERS AS POSSIBLE. AS PART OF THIS USE OF INFORMATION, WE MAY PROVIDE AGGREGATE INFORMATION, NOT INFORMATION ABOUT YOU PERSONALLY, TO OUR PARTNERS ABOUT HOW OUR USERS, COLLECTIVELY, USE OUR SITE AND SERVICES. IF WE SHARE THIS TYPE OF STATISTICAL DATA, WE DO SO THAT OUR PARTNERS CAN UNDERSTAND HOW OFTEN PEOPLE USE THEIR AREAS OF OUR SITE AND SERVICE, SO THAT THEY, TOO, MAY PROVIDE YOU WITH AN OPTIMAL MEEGAUPLOAD EXPERIENCE. WE USE YOUR USER CONTRIBUTED CONTENT, PERSONAL INFORMATION, AND MEASURED DATA AND THE COMBINATION THEREOF TO PROVIDE, MAINTAIN, AND IMPROVE OUR SERVICES, TO BETTER UNDERSTAND HOW YOU INTERACT WITH MEEGAUPLOAD, TO PROVIDE PERSONALIZED FEATURES OF THE SERVICE, TO MONITOR YOUR USE AND AGGREGATE USERS' USE OF MEEGAUPLOAD, TO ADMINISTER YOUR INQUIRIES, AND TO ENFORCE OUR (OR OUR PARTNERS' OR USERS') RIGHTS. AS ONE EXAMPLE, AS YOU USE A MEEGAUPLOAD SITE, YOUR PROFILE MAY BE AUTOMATICALLY UPDATED TO REFLECT YOUR USE OF SUCH SITE INCLUDING WHICH CONVERSATIONS YOU PARTICIPATE IN, WHICH WORLDS, TOPICS AND USERS YOU ORBIT, YOUR EXPERTISE, AND OTHER ACTIONS YOU TAKE.MEEGAUPLOAD IS ALSO DISPOSING A SERIES OF TOOLS THAT MIGHT  SYNC AND INTERACT WITH OTHER ACCOUNTS SUCH TWITTER (REGISTERED TRADEMARK) AND OTHER SOCIAL NETWORK. THIS TOOLS CAN BE AFFECTED OF CHANGE AND INTERACT WITH THE NETWORK. WE ALSO USE YOUR USER CONTRIBUTED CONTENT, MEASURED DATA, AND THE AGGREGATED PERSONAL INFORMATION OF THE MEMBERS OF MEEGAUPLOAD OR A SPECIFIC GROUP, DEMOGRAPHIC, OR WORLD WITHIN MEEGAUPLOAD AND ANY COMBINATION OF SUCH INFORMATION TO DELIVER CUSTOM CONTENT AND ADVERTISING THAT MAY BE OF INTEREST TO YOU. FOR EXAMPLE, IF YOU ORBIT A WORLD FOCUSED ON VIDEO GAMES, WE MIGHT SERVE YOU CUSTOMIZED CONTENT OR AN ADVERTISEMENT HIGHLIGHTING A NEW GAME RELEASE, BUT WE DON'T TELL THE GAMING COMPANY WHO YOU ARE. WE MAY ALSO USE PERSONAL INFORMATION AND MEASURED DATA TO SEARCH ON YOU TO COLLECT ADDITIONAL INFORMATION ABOUT YOU FROM THIRD-PARTY SOURCES, SUCH AS NEWSPAPERS, BLOGS, INSTANT MESSAGING SERVICES, SOCIAL NETWORKS, AND OTHER WEBSITES. WILL MEEGAUPLOAD SHARE ANY OF THE INFORMATION IT RECEIVES?YOUR DATA IS TREATED WITH RESPECT OF D. LGS. 196/2003 IN ORDER TO COMPLY WITH YOUR REQUEST FOR INFORMATION AND IN ORDER TO OFFER YOU THE REQUESTED AND CONNECTED INFORMATION VIA E-MAIL OR OTHER FORMATS AS WELL AS TO SEND YOU PROMOTIONAL CONTENT AND/OR OTHER INFORMATION REGARDING OUR ACTIVITIES OR OUR PARTNERS ACTIVITIES.INFORMATION SHARING AND DISCLOSURETIP WE DO NOT DISCLOSE YOUR PRIVATE INFORMATION EXCEPT IN THE LIMITED CIRCUMSTANCES DESCRIBED HERE. YOUR CONSENT: WE MAY SHARE OR DISCLOSE YOUR INFORMATION WITH YOUR CONSENT, SUCH AS WHEN YOU USE A THIRD PARTY WEB CLIENT TO ACCESS YOUR MEEGAUPLOAD ACCOUNT.SERVICE PROVIDERS: WE ENGAGE CERTAIN TRUSTED THIRD PARTIES TO PERFORM FUNCTIONS AND PROVIDE SERVICES TO US. WE MAY SHARE YOUR PERSONAL INFORMATION WITH THESE THIRD PARTIES, BUT ONLY TO THE EXTENT NECESSARY TO PERFORM THESE FUNCTIONS AND PROVIDE SUCH SERVICES, AND ONLY PURSUANT TO OBLIGATIONS MIRRORING THE PROTECTIONS OF THIS PRIVACY POLICY.LAW AND HARM: WE MAY DISCLOSE YOUR INFORMATION IF WE BELIEVE THAT IT IS REASONABLY NECESSARY TO COMPLY WITH A LAW, REGULATION OR LEGAL REQUEST; TO PROTECT THE SAFETY OF ANY PERSON; TO ADDRESS FRAUD, SECURITY OR TECHNICAL ISSUES; OR TO PROTECT MEEGAUPLOAD'S RIGHTS OR PROPERTY.BUSINESS TRANSFERS: IN THE EVENT THAT MEEGAUPLOAD IS INVOLVED IN A BANKRUPTCY, MERGER, ACQUISITION, REORGANIZATION OR SALE OF ASSETS, YOUR INFORMATION MAY BE SOLD OR TRANSFERRED AS PART OF THAT TRANSACTION. THE PROMISES IN THIS PRIVACY POLICY WILL APPLY TO YOUR INFORMATION AS TRANSFERRED TO THE NEW ENTITY.NON-PRIVATE OR NON-PERSONAL INFORMATION: WE MAY SHARE OR DISCLOSE YOUR NON-PRIVATE, AGGREGATED OR OTHERWISE NON-PERSONAL INFORMATION, SUCH AS YOUR AGGREGETATE PROFILE INFORMATION MODIFYING YOUR PERSONAL INFORMATIONMEEGAUPLOAD   IS PROPRIETARY OF THE DATA ELABORATION AND DATA TREATMENT. IN EVERY MOMENT YOU ARE ALLOWED TO CONTROL YOUR DATA, TO CHANGE IT OR TO CANCEL IT BY WRITING TO <a id="__cf_email__" href="http://cloudflare.com/email-protection.html" class="7e3d31302a3f3d2a3e333b3b393f2b2e32313f3a50303b2a50">[email&nbsp;protected]</a><script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementById("__cf_email__");a=l.className;if(a){s='';r=parseInt(a.substr(0,2),16);for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
+/* ]]> */
+</script>OUR POLICY TOWARDS CHILDRENOUR SERVICES ARE NOT DIRECTED TO PEOPLE UNDER 13. IF YOU BECOME AWARE THAT YOUR CHILD HAS PROVIDED US WITH PERSONAL INFORMATION WITHOUT YOUR CONSENT, PLEASE CONTACT US AT <a id="__cf_email__" href="http://cloudflare.com/email-protection.html" class="d2919d9c86939186929f9797959387829e9d9396fc9c9786">[email&nbsp;protected]</a><script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementById("__cf_email__");a=l.className;if(a){s='';r=parseInt(a.substr(0,2),16);for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
+/* ]]> */
+</script>  WE DO NOT KNOWINGLY COLLECT PERSONAL INFORMATION FROM CHILDREN UNDER 13. IF WE BECOME AWARE THAT A CHILD UNDER 13 HAS PROVIDED US WITH PERSONAL INFORMATION, WE TAKE STEPS TO REMOVE SUCH INFORMATION AND TERMINATE THE CHILD'S ACCOUNT. CHANGES TO THIS POLICYWE MAY REVISE THIS PRIVACY POLICY FROM TIME TO TIME. THE MOST CURRENT VERSION OF THE POLICY WILL GOVERN OUR USE OF YOUR INFORMATION AND WILL ALWAYS BE VISIBLE ONLINE. IF WE MAKE A CHANGE TO THIS POLICY THAT, IN OUR SOLE DISCRETION, IS MATERIAL, WE WILL NOTIFY YOU VIA AN E-MAIL TO THE EMAIL ASSOCIATED WITH YOUR ACCOUNT. BY CONTINUING TO ACCESS OR USE THE SERVICES AFTER THOSE CHANGES BECOME EFFECTIVE, YOU AGREE TO BE BOUND BY THE REVISED PRIVACY POLICY. 
+			   </div>
+        
+            
+			 <div id="carouselswf_div"></div>
+
+			<div id="carouselswf"></div>
+		 	  <script type="text/javascript">
+		 	 
+			  </script>
+			
+			</div>
+          </div>
+          <div class="start_carousel_mid_bg" id="c1"> <a href="javascript:carousel('c1')" class="start_car_nw_lnk"></a> </div>
+          <div id="c1_block" class="start_carousel_block_closed"><a href="javascript:carousel('c1')" class="close_carousel"></a>
+            <div>
+              <div class="st_nw_block1_bg">
+                <div class="st_nw_block_txt"> </div>
+              </div>
+              <div class="st_nw_block2_bg">
+                <div class="st_nw_block_txt"> </div>
+              </div>
+              <div class="st_nw_block3_bg">
+                <div class="st_nw_block_txt"> </div>
+              </div>
+              <div class="st_nw_block4_bg">
+                <div class="st_nw_block_txt"> </div>
+              </div>
+              <div class="st_nw_block5_bg">
+                <div class="st_nw_block_txt"> </div>
+              </div>
+              <div class="st_nw_block6_bg">
+                <div class="st_nw_block_txt"> </div>
+              </div>
+              <div class="st_nw_block7_bg">
+                <div class="st_nw_block_txt">
+                  <div class="clear"></div>
+                </div>
+              </div>
+              <div class="st_nw_block8_bg">
+                <div class="st_nw_block_txt"> <a href="#" class="st_nw_premium"></a> <a href="#" class="st_nw_free"></a>
+                  <div class="clear"></div>
+                </div>
+              </div>
+              <div class="st_nw_block9_bg">
+                <div class="st_nw_block_txt"> </div>
+              </div>
+              <div class="st_nw_block10_bg">
+                <div class="st_nw_block_txt"> <a href="#" class="st_nw_premium_lnk"></a> <a href="#" class="st_nw_free_lnk"></a>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="faq_bott_shadow">
+          <div class="faq_bott_shadow_bg"></div>
+        </div>
+      </div>
+      <div class="bottom_bl">
+        <div class="foot_bg1"></div>
+        <div class="bott_butt1"><a href="page.html" class="f_butt_1" target="_blank"></a></div>
+
+<div class="bott_butt2"><a href="page.html" class="f_butt_2 "></a></div>
+
+<div class="bott_butt3"><a href="page.html" class="f_butt_3 "></a></div>
+
+<div class="bott_butt4"><a href="privacy.html" class="f_butt_4 "></a></div>
+
+<div class="bott_butt5"><a href="terms.html" class="f_butt_5 "></a></div>
+
+<div class="bott_butt6"><a href="page.html" class="f_butt_6 "></a></div>
+
+
+
+
+
+
+        <div class="clear"></div>
+      </div>
+      <div class="powered_bl"></div>
+	  <div class="clear"></div>
+      </div></td>
+    <td class="right_top" ><div class="r_top_bg">
+        <div class="right_top_bg"></div>
+      </div>
+      <div class="mid_right_bg1">
+        <div class="mid_right_bg2"></div>
+      </div></td>
+  </tr>
+</table>
+
+
+
+
+
+<div id="carousel_player_div" class="carousel_player">
+<div id="carouselplayerswf_div"></div>
+<a href="javascript:closevideo();" class="close_flash_nw" style="left:955px; top:-16px; display:none;" id="flashclosebtn"></a>
+</div>
+
+
+<div id="fadeout3" class="grayblock" style="display:none;"></div>
+
+
+
+
+
+<div class="fm_popup" style="width:644px;" id="popup_notify">
+  <div class="fm_popup_bg1"> </div>
+  <div class="fm_popup_bg2">
+    <div> <a href="javascript:closeNotify();" class="fm_import_close_but"></a> </div>
+  </div>
+  <div class="fm_popup_bg3">
+    <div class="fm_popup_message_txt"> </div>
+  </div>
+  <div class="clear"></div>
+  <div class="fm_popup_bg4">
+    <div class="fm_popup_bg5">
+      <div class="fm_popup_main1">
+        <div class="fm_popup_del_txt" id="notify_txt" style="line-height:22px;"></div>
+        <div class="fm_mess_butt_bl"> <a href="javascript:closeNotify();" class="fm_message_ok"></a> </div>
+      </div>
+    </div>
+  </div>
+  <div class="fm_popup_bg6"> </div>
+  <div class="fm_popup_bg7"> </div>
+  <div class="fm_popup_bg8"> </div>
+</div>
+<div id="fadeout" class="grayblock" style="display:none;" onclick="closeNotify();"></div>
+
+
+
+
+
+<div class="fm_popup" style="width:644px;" id="popup_payment">
+  <div class="fm_popup_bg1"> </div>
+  <div class="fm_popup_bg2">
+    <div> <a href="javascript:closePayment();" class="fm_import_close_but"></a> </div>
+  </div>
+  <div class="fm_popup_bg3">
+    <div class="fm_popup_message_txt"> </div>
+  </div>
+  <div class="clear"></div>
+  <div class="fm_popup_bg4">
+    <div class="fm_popup_bg5">
+      <div class="fm_popup_main1">
+        <div class="fm_popup_del_txt" id="payment_txt" style="line-height:22px;"></div>
+        <div class="fm_mess_butt_bl"> <a href="javascript:closePayment();" class="fm_message_ok"></a> </div>
+      </div>
+    </div>
+  </div>
+  <div class="fm_popup_bg6"> </div>
+  <div class="fm_popup_bg7"> </div>
+  <div class="fm_popup_bg8"> </div>
+</div>
+<div id="fadeout4" class="grayblock" style="display:none;" onclick="closePayment();"></div>
+<!-- Histats.com  START (hidden counter)-->
+<script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
+<a href="http://www.histats.com/" target="_blank" title="statistiche sito" ><script  type="text/javascript" >
+try {Histats.start(1,1792610,4,0,0,0,"");
+Histats.track_hits();} catch(err){};
+</script></a>
+<noscript><a href="http://www.histats.com/" target="_blank"><img  src="../sstatic1.histats.com/06ce1.gif?1792610&amp;101" alt="statistiche sito" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<!-- Mirrored from meegaupload.net/privacy.html by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 25 Jan 2012 17:35:08 GMT -->
+</html>

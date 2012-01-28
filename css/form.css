@@ -1,0 +1,107 @@
+.nl-form {
+    padding-top:30px;
+    height:192px;
+    overflow:hidden;
+}
+.nl-form h2 {
+    margin:0;
+    color:#8b8b8b;
+    padding:0;
+    font-size:21px;
+    line-height:30px;
+    text-align:center;
+    width:700px;
+    margin:0 auto;
+    text-transform: uppercase;
+}
+.nl-form .input-form {
+    width:780px;
+    padding-top:20px;
+    margin:0 auto;
+}
+.nl-form .input {
+    height:51px;
+    width:303px;
+    position:relative;
+    overflow:hidden;
+    float:left;
+    margin-right:17px;
+}
+.nl-form .input .bg,.nl-form .input .label {
+    position:absolute;
+    background:url(../images/form-bg.png) no-repeat;
+    z-index:1;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+.nl-form .input .label {
+    font-size:20px;
+    line-height:22px;
+    padding:14px 0 0 13px;
+    font-weight:bold;
+    color:#ff8700;
+    z-index:2;
+}
+.nl-form .input input,.nl-form .signup input {
+    position:relative;
+    border:none;
+    height:51px;
+    background:transparent;
+    z-index:3;
+    margin:0;
+    padding:0 0 0 11px;
+    -webkit-appearance: none;
+    outline: none;
+    width: 100%;
+    font-size:20px;
+    line-height:22px;
+}
+.nl-form .signup {
+    position:relative;
+    height:51px;
+    width:135px;
+    float:left;
+}
+.nl-form .signup .bg {
+    position:absolute;
+    background:url(../images/signup.png) no-repeat;
+    z-index:1;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+.nl-form .signup input {
+    cursor:pointer;
+}
+.nl-form .msg-box {
+    clear:both;
+    padding-top:10px;
+    width:760px;
+    margin:0 auto;
+}
+.nl-form .msg-box #message {
+    color:#dd0000;
+    font-size:18px;
+    line-height:20px;
+}
+.nl-form .msg-box #message .subscript-ok {
+    color:#7f9c42;
+    font-size:24px;
+    line-height:26px;
+    text-align:center;
+    padding-top:20px;
+}
+#sel-data {
+    background:#fff;
+    border:2px solid #ccc;
+    font-size:18px;
+    line-height:28px;
+    color:#ff8700;
+    text-align:center;
+    padding: 30px;
+    width:700px;
+    text-shadow: 1px 1px 1px #e9e9e9;
+}
